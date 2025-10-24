@@ -1,0 +1,4 @@
+train: /content/drive/MyDrive/CV/train_car/train
+val: /content/drive/MyDrive/CV/train_car/val
+nc: 1
+names: ["car"]
