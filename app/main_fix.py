@@ -7,11 +7,11 @@ from collections import deque
 import time
 import os
 
-videoPath = 'Z:\\WORKSPACE\\bai_do_xe\\carPark.mp4'
-modelPath = 'Z:\\WORKSPACE\\bai_do_xe\\models\\yolo11_finetune.pt'
+videoPath = 'E:\\WORKSPACE\\packing-plot\\carPark.mp4'
+modelPath = 'E:\\WORKSPACE\\packing-plot\\models\\yolo11_finetune.pt'
 gatePos = (50, 360)
 
-viTri = 'Z:\\WORKSPACE\\bai_do_xe\\xac_dinh_vi_tri\\viTri'  # THIẾU .pkl
+viTri = 'E:\\WORKSPACE\\packing-plot\\xac_dinh_vi_tri\\viTri'
 
 confidence = 0.5
 iou_threshold = 0.3  # Sửa tên biến: iuo -> iou_threshold

@@ -20,7 +20,7 @@ def mouseClick(event, x, y, flags, prams):
     with open('viTri','wb') as f:
         p.dump(VT, f)
 while True:
-    img = cv.imread('Z:\\WORKSPACE\\bai_do_xe\\xac_dinh_vi_tri\\carParkImg.png')
+    img = cv.imread('E:\\WORKSPACE\\packing-plot\\xac_dinh_vi_tri\\carParkImg.png')
     for vt in VT:
         cv.rectangle(img, vt, (vt[0]+w, vt[1]+h), (255,0,255), 2)
     cv.imshow('image', img)
